@@ -22,6 +22,7 @@ export const fetchSmurfs = () => dispatch => {
 }
 
 export const createSmurf = props => dispatch => {
+    console.log("test", props);
     dispatch({ type: CREATE_SMURF_START });
     axios
         .post('http://localhost:3333/smurfs', props)

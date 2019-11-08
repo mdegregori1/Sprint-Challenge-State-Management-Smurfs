@@ -13,7 +13,6 @@ const SmurfForm = () => {
         age: 0
     })
 
-
     const textInput = e => {
         e.preventDefault();
         setInput({ ...input, [e.target.name]: e.target.value })
@@ -46,3 +45,4 @@ const SmurfForm = () => {
 }
 
 export default SmurfForm;
+
